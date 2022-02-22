@@ -1,0 +1,9 @@
+.Alignh1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 9rem;
+}

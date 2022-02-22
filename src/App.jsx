@@ -3,11 +3,11 @@ import ItemListContainer from './container/ItemListContainer'
 
 const App = () => {
   return (
-    <div>
+    <>
     <NavBar/>
-    <ItemListContainer/>
+   <ItemListContainer/>
       
-    </div>
+    </>
   )
 }
 
