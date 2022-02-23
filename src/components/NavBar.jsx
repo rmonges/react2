@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Alignh1.css'
+import '../Assets/styles/Alignh1.css'
 import CartWidget from '../components/CartWidget'
 import LogoResto from  '../components/LogoResto'
 
