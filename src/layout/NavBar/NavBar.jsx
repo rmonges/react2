@@ -1,7 +1,7 @@
 import React from 'react'
-import '../Assets/styles/Alignh1.css'
-import CartWidget from '../components/CartWidget'
-import LogoResto from  '../components/LogoResto'
+import '../../Assets/styles/Alignh1.css'
+import CartWidget from '../../components/CartWidget'
+import LogoResto from  '../../components/LogoResto'
 
 const NavBar = () => {
   return (

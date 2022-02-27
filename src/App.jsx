@@ -1,11 +1,15 @@
-import NavBar from './components/NavBar'
+import NavBar from './layout/NavBar/NavBar'
 import ItemListContainer from './container/ItemListContainer'
+
+
 
 const App = () => {
   return (
     <>
     <NavBar/>
    <ItemListContainer/>
+   
+   
       
     </>
   )
