@@ -1,5 +1,5 @@
-import React from 'react'
-import LogoMarca from '../imagenes/vespas comidas/logo.png'
+
+import LogoMarca from '../imagenes/logo.png'
 
 const LogoResto = () => {
   return (

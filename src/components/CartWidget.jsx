@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../imagenes/vespas comidas/delivery.png'
-/*import stilo from '../Assets/styles/cartwidget.css'*/
+import logo from '../imagenes/delivery.png'
+
 
 const CartWidget = (qty = 0) => {
   return (

@@ -6,7 +6,7 @@ import ProductsCard from '../components/productos/ProductsCard';
 
 const ItemListContainer = () => { 
 
-  const url = 'https://run.mocky.io/v3/10ed0131-93f1-4caa-859a-2dcc5d8c10b3';
+  const url = 'https://run.mocky.io/v3/34e51a13-61a4-4f2f-9e74-c267a5ebda5c';
 
 
   const [products, setProducts] = useState([]);
@@ -34,9 +34,7 @@ return (
       
       </div>
 
-    
-  
-)
+ )
 }
 
 export default ItemListContainer
@@ -56,5 +54,6 @@ export default ItemListContainer
         :<p>Cargando Productos ahora</p>
         
       }
+      
       
     </section>*/

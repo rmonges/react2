@@ -3,28 +3,28 @@
         "nombre":"lomito",
         "precio":650,
         "id":1,
-        "img":"../imagen/pizzarosso.jpg",
+        "img":"../imagenes/vespas comidas/lomitos.jpg",
         "descripcion":"completo"
     },
     {
         "nombre":"hamburguesa",
         "precio":550,
         "id":2,
-        "img":"../imagen/pizzarosso.jpg",
+        "img":"../imagenes/vespas comidas/hambueguesas.png",
         "descripcion":"completa"
     },
     {
         "nombre":"pizzas",
         "precio":950,
         "id":3,
-        "img":"../../src/imagenes/vespas comidas/pizzarosso.jpg",
+        "img":"../imagenes/vespas comidas/pizzas2.jpg",
         "descripcion":"solicitar variedades"
     },
     {
         "nombre":"picada",
         "precio":1150,
         "id":4,
-        "img":"../imagen/pizzarosso.jpg",
+        "img":"../imagenes/vespas comidas/picada.png",
         "descripcion":"5 fiambres y 4 quesos"
     }
     
