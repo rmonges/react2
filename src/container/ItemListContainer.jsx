@@ -1,6 +1,7 @@
 
 
 import React, { useEffect , useState } from 'react'
+import './productoContainer.css'
 import '../Assets/styles/ItemList.css'
 import ProductsCard from '../components/productos/ProductsCard';
 
@@ -11,44 +12,57 @@ const ItemListContainer = () => {
 
   const [products, setProducts] = useState([]);
 
+ /* const getProducts = async () => {
+    
+    try {
+      const resp = await fetch(url);//esperamos a que se cumpla la promesa
+      const data = await resp.json();//esperamos a que se parse la respuesta
+      setProducts(data);//seteamos nuestro state de productos
+  } catch (error) {
+      console.log(error);
+  }*/
+  
+
+  
+
   useEffect(() => {
     
     fetch(url)
-    .then(resp => resp.json())
-    .then(data => setProducts(data))
-    .catch(err => console.log(err));
-    console.log('data')   
+    //getProducts();
+   .then(resp => resp.json())
+   .then(data => setProducts(data))
+   .catch(err => console.log(err));
+   console.log('data')   
   
     
   }, [])
   
 return (
- 
-    <>
-      {products.map(img=><div key={img.id}>
-          
-       <ProductsCard  producto={img}/></div>)}
-    </>
+
+    <section className="productoContainer">
+     {
+         products.length ?
+
+         (
+           products.map ( producto => {
+              return(
+                
+               <ProductsCard producto={producto}/>
+              )
+           })
+           
+           )
+        : <p>cargando productos</p>
+     }
+    </section>  
  )
 }
 
+
+
 export default ItemListContainer
 
-/*<section>
-      {
-        products.length ? (
+/* {products.map(product =><div key={product.id}>
           
-          products.map ( product => {
-            return (
-              
-              <p >{product.img1}</p>
-            )
-            
-          })
-        )
-        :<p>Cargando Productos ahora</p>
-        
-      }
-      
-      
+       <ProductsCard  producto={product}/></div>)}
     </section>*/

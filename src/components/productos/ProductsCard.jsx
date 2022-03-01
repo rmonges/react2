@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../Assets/styles/Products.Card.css'
 
 const ProductsCard = ({producto}) => {
   return (

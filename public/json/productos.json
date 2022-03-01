@@ -31,7 +31,7 @@
         "nombre":"Sandwitches",
         "precio":450,
         "id":5,
-        "img":"https://www.shutterstock.com/es/image-photo/two-fresh-submarine-sandwiches-ham-cheese-497930494",
+        "img":"../imagenes/vespas comidas/picada.png",
         "descripcion":"De fiambres, carne y veggie"
     },
     {
