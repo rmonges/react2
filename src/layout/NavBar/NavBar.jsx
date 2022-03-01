@@ -25,10 +25,10 @@ const NavBar = () => {
             <a class="nav-link" href="Menu.html">Pizzas</a>
           </li>
          <li class="nav-item active">
-            <a class="nav-link" href="Galeria.html">Galeria</a>
+            <a class="nav-link" href="Galeria.html">Carnes</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="Contacto.html">Contacto</a>
+            <a class="nav-link" href="Contacto.html">Pastas</a>
           </li>
           <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="Promociones.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -26,6 +26,27 @@
         "id":4,
         "img":"../imagenes/vespas comidas/picada.png",
         "descripcion":"5 fiambres y 4 quesos"
+    },
+    {
+        "nombre":"Sandwitches",
+        "precio":450,
+        "id":5,
+        "img":"https://www.shutterstock.com/es/image-photo/two-fresh-submarine-sandwiches-ham-cheese-497930494",
+        "descripcion":"De fiambres, carne y veggie"
+    },
+    {
+        "nombre":"Carnes",
+        "precio":800,
+        "id":6,
+        "img":"../imagenes/vespas comidas/carnes asadas.jpg",
+        "descripcion":"Carnes Asadas"
+    },
+    {
+        "nombre":"Pastas",
+        "precio": 750,
+        "id":7,
+        "img":"../imagenes/vespas comidas/pasta.jpg",
+        "descripcion":"Pastas Caseras"
     }
     
 

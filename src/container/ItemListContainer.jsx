@@ -6,7 +6,7 @@ import ProductsCard from '../components/productos/ProductsCard';
 
 const ItemListContainer = () => { 
 
-  const url = 'https://run.mocky.io/v3/34e51a13-61a4-4f2f-9e74-c267a5ebda5c';
+  const url = 'https://run.mocky.io/v3/b738a8d4-1ad7-494f-b22c-3ba5fc4e2bf2';
 
 
   const [products, setProducts] = useState([]);
@@ -24,16 +24,11 @@ const ItemListContainer = () => {
   
 return (
  
-    
-      <div className="flex flex-row flex-wrap">
-      <div className="grid gap-x-8 gap-y-4 grid-cols-3 ">
-        
-        {products.map(id=><ProductsCard  producto={id}/>)}
-
-         </div>
-      
-      </div>
-
+    <>
+      {products.map(img=><div key={img.id}>
+          
+       <ProductsCard  producto={img}/></div>)}
+    </>
  )
 }
 
