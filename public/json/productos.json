@@ -3,49 +3,49 @@
         "nombre":"lomito",
         "precio":650,
         "id":1,
-        "img":"../imagenes/vespas comidas/lomitos.jpg",
+        "img":"../imagenes/vespas-comidas/lomitos.jpg",
         "descripcion":"completo"
     },
     {
         "nombre":"hamburguesa",
         "precio":550,
         "id":2,
-        "img":"../imagenes/vespas comidas/hambueguesas.png",
+        "img":"../imagenes/vespas-comidas/hambueguesas.png",
         "descripcion":"completa"
     },
     {
         "nombre":"pizzas",
         "precio":950,
         "id":3,
-        "img":"../imagenes/vespas comidas/pizzas2.jpg",
+        "img":"../imagenes/vespas-comidas/pizzas2.jpg",
         "descripcion":"solicitar variedades"
     },
     {
         "nombre":"picada",
         "precio":1150,
         "id":4,
-        "img":"../imagenes/vespas comidas/picada.png",
+        "img":"../imagenes/vespas-comidas/picada.png",
         "descripcion":"5 fiambres y 4 quesos"
     },
     {
         "nombre":"Sandwitches",
         "precio":450,
         "id":5,
-        "img":"../imagenes/vespas comidas/picada.png",
+        "img":"../imagenes/vespas-comidas/picada.png",
         "descripcion":"De fiambres, carne y veggie"
     },
     {
         "nombre":"Carnes",
         "precio":800,
         "id":6,
-        "img":"../imagenes/vespas comidas/carnes asadas.jpg",
+        "img":"../imagenes/vespas-comidas/carnes asadas.jpg",
         "descripcion":"Carnes Asadas"
     },
     {
         "nombre":"Pastas",
         "precio": 750,
         "id":7,
-        "img":"../imagenes/vespas comidas/pasta.jpg",
+        "img":"../imagenes/vespas-comidas/pasta.jpg",
         "descripcion":"Pastas Caseras"
     }
     

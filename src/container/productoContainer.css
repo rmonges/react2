@@ -2,3 +2,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+.centerTitle {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkslategray;
+    margin-top: 5rem;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../Assets/styles/Products.Card.css'
 
+
 const ProductsCard = ({producto}) => {
   return (
     <div>
@@ -14,7 +15,8 @@ const ProductsCard = ({producto}) => {
       </div>
       <div className="w-full h-1/4 p-3">
         <a href="htm" className=" hover:text-yellow-600 text-gray-700">
-          <span className="text-lg font-semibold uppercase tracking-wide ">{producto.precio}</span>
+          <span className="text-lg font-semibold uppercase tracking-wide "></span>
+          
         </a>
         <p className="text-gray-600 text-sm leading-5 mt-1">{producto.descripcion}</p> 
       </div>
