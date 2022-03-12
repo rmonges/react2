@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../../Assets/styles/Alignh1.css'
 import CartWidget from '../../components/CartWidget'
 import LogoResto from  '../../components/LogoResto'
@@ -19,16 +20,12 @@ const NavBar = () => {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="Home.html">Lomos<span class="sr-only"></span></a>
+            
+            <Link to='/' className="inic">Inicio</Link>
           </li>
+          
           <li class="nav-item active">
-            <a class="nav-link" href="Menu.html">Pizzas</a>
-          </li>
-         <li class="nav-item active">
-            <a class="nav-link" href="Galeria.html">Hambuerguesas</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="Contacto.html">Sandwitches</a>
+            <a class="nav-link" href="Contacto.html">Contacto</a>
           </li>
           <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="Promociones.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

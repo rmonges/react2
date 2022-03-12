@@ -1,13 +1,14 @@
 import React from 'react'
+import '../../Assets/styles/ItemListDetail.css'
+import ProductsCardId from './ProductsCard'
 
-const ItemDetail = ({producto}) => {
-  return (
-    <section>
-        <img src={producto.img} alt=""/>
-        <h2>{producto.nombre}</h2>
-        <h3>{producto.descripcion}</h3>
-        <p>${producto.precio}</p>
+export const ItemDetail = ({producto}) => {
+  return ( 
+    <div className="productoContainer">
+      <section  >
+        <ProductsCardId producto={producto} />
     </section>
+    </div>
     )
 }
 

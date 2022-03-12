@@ -56,7 +56,7 @@
 
     .footer__div{
         margin-bottom: 5rem;
-        margin-top: 5rem;
+        margin-top: 10rem;
     }
 
     .footer__botton {
@@ -148,7 +148,7 @@ footer section div img {
     }
 
     footer section div img {
-        left: 50%;
+        left: 47%;
         top: 1rem;
 
     }
@@ -180,10 +180,7 @@ footer section div img {
        
     }
 
-    .bg-light {
-        
-        background-color: #b0d1c19c;
-      }
+    
 
    
 

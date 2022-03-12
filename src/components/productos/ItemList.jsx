@@ -1,38 +1,38 @@
 import React, { useEffect , useState } from 'react'
-
 import '../../Assets/styles/ItemList.css'
 import ProductsCard from '../productos/ProductsCard';
 
-const ItemListContainer = () => { 
+const ItemList = () => { 
 
-  const url = 'https://run.mocky.io/v3/b738a8d4-1ad7-494f-b22c-3ba5fc4e2bf2';
+  const url = 'https://run.mocky.io/v3/3f70bc20-6420-44de-afa0-3532ea173a2b';
 
 
   const [products, setProducts] = useState([]);
+  
+  useEffect(() => {
+    
+    setTimeout(getProducts, 2000)
+    getProducts();
+    getProducts(setProducts);
+   
+  
+    
+  }, [])
 
   const getProducts =async ()=> {
      
     try {
       const resp  = await fetch(url);
       const data = await resp.json();
+      
       setProducts(data);
+      
     }catch(error) {
       console.log(error);
     }
   }
 
- useEffect(() => {
-    
-    setTimeout(getProducts, 2000)
-    getProducts();
-    getProducts(setProducts);
-   //.then(resp => resp.json())
-   //.then(data => setProducts(data))
-   //.catch(err => console.log(err));
-   //console.log('data')   
-  
-    
-  }, [])
+
   
 return (
 
@@ -58,5 +58,5 @@ return (
 
 
 
-export default ItemListContainer
+export default ItemList
 
