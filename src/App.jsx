@@ -18,12 +18,11 @@ const App = () => {
   <Routes>
    <Route index element= {<Home/>}></Route>
       <Route path='/' element= {<ItemListContainer/>}></Route> 
-      <Route path='Item'element={<ItemDetailContainer/>} >
+      <Route path='Item' >
       <Route path=':id' element= {<ItemDetail2/>}></Route>
         </Route>
       <Route path='categoria' element= {<ItemDetailContainer/>}>
-       <Route path=':category' element= {<ItemListDetail/>} >
-         
+       <Route path=':category' element= {<ItemListDetail/>}>
        </Route>
        </Route>
    </Routes>
